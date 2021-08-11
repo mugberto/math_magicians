@@ -42,7 +42,7 @@ it will open `http://localhost:3000/` in your default browser.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mugberto/to-do-list/issues).
+Feel free to check the [issues page](https://github.com/mugberto/math_magicians/issues).
 
 ## Show your support
 
