@@ -3,7 +3,7 @@ import './Calculator.css';
 function Calculator() {
   return (
     <div className="calc-container">
-      <input type="text" value="0" />
+      <div className="calc-display">0</div>
       <button type="button" className="gray-btn">AC</button>
       <button type="button" className="gray-btn">+/-</button>
       <button type="button" className="gray-btn">%</button>
@@ -26,5 +26,4 @@ function Calculator() {
     </div>
   );
 }
-
 export default Calculator;

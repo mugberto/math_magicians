@@ -5,29 +5,30 @@
   grid-gap: 1px 1px;
   background-color: #c2c2c2;
   width: 400px;
+  margin: 0 auto;
 }
 
-.calc-container > *:first-child {
+.calc-display {
   grid-column: 1 / span 4;
   background-color: #858692;
+  padding: 1rem;
   color: white;
   font-size: 1rem;
   text-align: right;
-  border: none;
 }
 
 .calc-container > *:nth-child(18) {
   grid-column: 1 / span 2;
 }
 
-button {
+button[class$='btn'] {
   border: none;
 }
 
-.orange-btn {
+button[class^='orange'] {
   background-color: #f5913e;
 }
 
-.gray-btn {
+button[class^='gray'] {
   background-color: #e0e0e0;
 }
