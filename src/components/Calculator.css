@@ -27,8 +27,20 @@ button[class$='btn'] {
 
 button[class^='orange'] {
   background-color: #f5913e;
+  transition: background-color 1s;
+}
+
+button[class^='orange']:hover {
+  background-color: #d37c36;
+  cursor: pointer;
 }
 
 button[class^='gray'] {
   background-color: #e0e0e0;
+  transition: background-color 1s;
+}
+
+button[class^='gray']:hover {
+  background-color: #b8b8b8;
+  cursor: pointer;
 }
