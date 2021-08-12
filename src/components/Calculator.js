@@ -25,7 +25,7 @@ class Calculator extends React.Component {
         <button type="button" onClick={this.handleClick} className="gray-btn">7</button>
         <button type="button" onClick={this.handleClick} className="gray-btn">8</button>
         <button type="button" onClick={this.handleClick} className="gray-btn">9</button>
-        <button type="button" onClick={this.handleClick} className="orange-btn">*</button>
+        <button type="button" onClick={this.handleClick} className="orange-btn">x</button>
         <button type="button" onClick={this.handleClick} className="gray-btn">4</button>
         <button type="button" onClick={this.handleClick} className="gray-btn">5</button>
         <button type="button" onClick={this.handleClick} className="gray-btn">6</button>
