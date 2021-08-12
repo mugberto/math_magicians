@@ -11,32 +11,22 @@ function Calculator() {
 
   const { next, total } = calcObject;
 
-  console.log(calcObject);
+  const buttonNames = [
+    'AC', '+/-', '%', '÷', '7', '8', '9', 'x',
+    '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '=',
+  ];
+
+  const btnClass = (i) => ((((i + 1) % 4 === 0) || i === 18) ? 'orange-btn' : 'gray-btn');
 
   return (
     <div className="calc-container">
       <div className="calc-display">{next || total || 0}</div>
-      <button type="button" onClick={handleClick} className="gray-btn">AC</button>
-      <button type="button" onClick={handleClick} className="gray-btn">+/-</button>
-      <button type="button" onClick={handleClick} className="gray-btn">%</button>
-      <button type="button" onClick={handleClick} className="orange-btn">÷</button>
-      <button type="button" onClick={handleClick} className="gray-btn">7</button>
-      <button type="button" onClick={handleClick} className="gray-btn">8</button>
-      <button type="button" onClick={handleClick} className="gray-btn">9</button>
-      <button type="button" onClick={handleClick} className="orange-btn">x</button>
-      <button type="button" onClick={handleClick} className="gray-btn">4</button>
-      <button type="button" onClick={handleClick} className="gray-btn">5</button>
-      <button type="button" onClick={handleClick} className="gray-btn">6</button>
-      <button type="button" onClick={handleClick} className="orange-btn">-</button>
-      <button type="button" onClick={handleClick} className="gray-btn">1</button>
-      <button type="button" onClick={handleClick} className="gray-btn">2</button>
-      <button type="button" onClick={handleClick} className="gray-btn">3</button>
-      <button type="button" onClick={handleClick} className="orange-btn">+</button>
-      <button type="button" onClick={handleClick} className="gray-btn">0</button>
-      <button type="button" onClick={handleClick} className="gray-btn">.</button>
-      <button type="button" onClick={handleClick} className="orange-btn">=</button>
+      {buttonNames.map((name, i) => (
+        <button key={i.toString()} type="button" onClick={handleClick} className={btnClass(i)}>
+          {name}
+        </button>
+      ))}
     </div>
   );
 }
-
 export default Calculator;
