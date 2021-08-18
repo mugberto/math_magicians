@@ -1,0 +1,13 @@
+.header {
+  margin-bottom: 4rem;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: .85em;
+  text-decoration: none;
+}
+
+.brand-name {
+  margin: 0;
+}
