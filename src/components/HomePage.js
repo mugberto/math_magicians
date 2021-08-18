@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomePage() {
   return (
-    <>
+    <div className="container">
       <h2>Welecome</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -16,7 +16,7 @@ function HomePage() {
         aperiam nobis quidem.
         Quo sunt, quia sequi delectus, quaerat ipsa nam hic suscipit.
       </p>
-    </>
+    </div>
   );
 }
 
