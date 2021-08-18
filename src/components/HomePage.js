@@ -2,7 +2,7 @@ import React from 'react';
 
 function HomePage() {
   return (
-    <div className="container">
+    <div className="container page-border">
       <h2>Welcome to our page</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
