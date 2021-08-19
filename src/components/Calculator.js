@@ -19,13 +19,16 @@ function Calculator() {
   const btnClass = (i) => ((((i + 1) % 4 === 0) || i === 18) ? 'orange-btn' : 'gray-btn');
 
   return (
-    <div className="calc-container">
-      <div className="calc-display">{next || total || 0}</div>
-      {buttonNames.map((name, i) => (
-        <button key={i.toString()} type="button" onClick={handleClick} className={btnClass(i)}>
-          {name}
-        </button>
-      ))}
+    <div className="container page-border">
+      <h2>Let&apos;s do some math!</h2>
+      <div className="calc-container">
+        <div className="calc-display">{next || total || 0}</div>
+        {buttonNames.map((name, i) => (
+          <button key={i.toString()} type="button" onClick={handleClick} className={btnClass(i)}>
+            {name}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
