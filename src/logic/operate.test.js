@@ -1,4 +1,4 @@
-import operate from "./operate";
+import operate from './operate';
 
 describe('operate', () => {
   test('1 + 1 should return 2', () => {
