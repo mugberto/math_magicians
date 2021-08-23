@@ -1,0 +1,28 @@
+.header {
+  padding: 1rem 0;
+  background-color: #222;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0.85em;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.nav-link:hover {
+  color: #f5913e;
+}
+
+.brand-name {
+  color: #f5913e;
+  margin: 0 0 0 1rem;
+}
+
+a.active {
+  border-top: 1px solid #f5913e;
+}
+
+a.home-btn {
+  background-color: #f5913e;
+}
