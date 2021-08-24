@@ -1,12 +1,15 @@
 # Math Magicians
 This repository contains code for an simple calculator web app.
 
+## Demo links
+
+For preview click: [here for a Heroku deployment](https://math-magicians-mugberto.herokuapp.com/) or [here for a Netlify deployment](https://pedantic-ardinghelli-c5ecda.netlify.app/)
+
 ## Built With
 
 - HTML
 - CSS
 - React
-
 
 ## Getting Started
 
